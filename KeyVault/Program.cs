@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using Azure.Core;
 using Azure.Identity;
 using Azure.Security.KeyVault.Secrets;
@@ -7,7 +8,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        string secretName = "MyDatabase";
+        string secretName = ConfigurationManager.AppSettings["SecretName"];
         string keyVaultName = "LearnAzKeyVaultHari";
         var kvUri = "https://learnazkeyvaulthari.vault.azure.net/";
         SecretClientOptions options = new SecretClientOptions()
