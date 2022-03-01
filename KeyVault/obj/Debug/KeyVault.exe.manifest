@@ -85,7 +85,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CvHgqs9zdkLLrrOaWxe+vVHZHsLkddVuowXfkSQQmak=</dsig:DigestValue>
+        <dsig:DigestValue>A6q9/jFVH8BS7l39lI6S144lNXFqSYmHlPnVC1sB6g4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -257,13 +257,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="KeyVault.exe.config" size="2595">
+  <file name="KeyVault.exe.config" size="2600">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>7gUj7hEexVurFD8OqtqgoSmYCE+3SSVM1F2wJxn30Q4=</dsig:DigestValue>
+      <dsig:DigestValue>BjneGjy+QOZ37jr5K467T8e4LoPTdri7s3kjFGN6iy4=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
